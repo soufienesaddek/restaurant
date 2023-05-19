@@ -123,6 +123,11 @@
   }
 }
 
+/* scroll-snap */
+.x.mandatory-scroll-snapping {
+  scroll-snap-type: x mandatory;
+}
+
 @media screen and (max-width: 1150px) {
   .app__wrapper {
     flex-direction: column;
